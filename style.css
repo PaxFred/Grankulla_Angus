@@ -1,0 +1,180 @@
+/*
+--------------------------------------------------
+
+Grankulla
+
+Version 0.1
+
+Hand written.
+No frameworks.
+No dependencies.
+
+--------------------------------------------------
+*/
+
+
+/* ---------- Reset ---------- */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* ---------- Färger ---------- */
+
+:root {
+
+    --paper: #f7f5f2;
+
+    --text: #222222;
+
+    --green: #66715f;
+
+    --line: #d8d3ca;
+
+}
+
+
+/* ---------- Grund ---------- */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: var(--paper);
+
+    color: var(--text);
+
+    font-family: system-ui, sans-serif;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+}
+
+
+/* ---------- Typografi ---------- */
+
+h1,
+h2 {
+
+    font-family:
+
+        Georgia,
+
+        "Times New Roman",
+
+        serif;
+
+    font-weight: normal;
+
+}
+
+h1 {
+
+    font-size: clamp(3rem, 8vw, 5rem);
+
+    letter-spacing: .30rem;
+
+}
+
+h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+
+}
+
+
+/* ---------- Hero ---------- */
+
+header {
+
+    min-height: 75vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 2rem;
+
+}
+
+
+.subtitle {
+
+    color: var(--green);
+
+    margin-top: 1rem;
+
+}
+
+
+/* ---------- Innehåll ---------- */
+
+section,
+footer {
+
+    max-width: 760px;
+
+    margin: auto;
+
+    padding:
+
+        7rem
+
+        2rem;
+
+}
+
+
+/* ---------- Text ---------- */
+
+p {
+
+    margin-bottom: 1.5rem;
+
+}
+
+ul {
+
+    margin-left: 1.4rem;
+
+    margin-top: 1rem;
+
+}
+
+li {
+
+    margin-bottom: .5rem;
+
+}
+
+
+/* ---------- Linje ---------- */
+
+section {
+
+    border-top:
+
+        1px solid
+
+        var(--line);
+
+}
